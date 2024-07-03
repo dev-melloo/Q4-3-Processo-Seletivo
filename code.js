@@ -960,3 +960,6 @@ const gods = [
       features: [],
     },
   ];
+
+gods.sort((a,b) => a.pantheon.localeCompare(b.pantheon));
+console.log(gods)
